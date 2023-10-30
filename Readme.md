@@ -1,9 +1,6 @@
 # OpenWeather App
 OpenWeather is a simple iOS app that allows users to access weather information by searching for a city name or postal code. It utilizes the OpenWeatherMap API for data retrieval. Users can view current weather conditions for searched locations, access recent searches, and remove them. This project adheres to the MVVM (Model-View-ViewModel) architectural pattern and incorporates unit testing for code reliability.
 
-- [Requirements](#requirements)
-    - [Getting Started](#getting-started)
-    - [Where to start](#where-to-start)
 ## Table of Contents
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
@@ -20,7 +17,7 @@ OpenWeather is a simple iOS app that allows users to access weather information 
 - [Additional Information](#additional-information)
 
 
-##Requirements
+## Requirements
 **Search by City Name or Postal Code:**
  Users can input a city name or postal code to retrieve current weather information for the searched location.
 
@@ -30,19 +27,19 @@ OpenWeather is a simple iOS app that allows users to access weather information 
 **Delete Recent Searches:**
  Users can delete one or more of the recently searched locations.
 
-##Getting Started
+## Getting Started
 **Prerequisites**
 
 1.Xcode (v13.0 or higher)
 2.Swift (v5.5 or higher)
 3. An internet connection to access the OpenWeatherMap API.
 
-##Installation
+## Installation
 1. Clone or download this repository.
 2. Open the project in Xcode.
 3. Build and run the project on a simulator or physical device.
 
-##Project Structure
+## Project Structure
 The project is structured as follows:
 
 1. CoreDataService.swift: 
@@ -86,8 +83,8 @@ Represents the data and business logic.
 **View:**
  Represents the user interface components and their layout.
  
-**ViewModel:
-** Acts as an intermediary between the Model and the View, handling data transformation and presentation.
+**ViewModel:** 
+Acts as an intermediary between the Model and the View, handling data transformation and presentation.
 
 ## Unit Testing
 Unit tests have been included in the project to ensure the reliability and correctness of the code. Test classes and mock data for testing can be located in the "Tests" directory.
