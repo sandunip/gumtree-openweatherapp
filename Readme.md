@@ -30,8 +30,8 @@ OpenWeather is a simple iOS app that allows users to access weather information 
 ## Getting Started
 **Prerequisites**
 
-1.Xcode (v13.0 or higher)
-2.Swift (v5.5 or higher)
+1. Xcode (v13.0 or higher)
+2. Swift (v5.5 or higher)
 3. An internet connection to access the OpenWeatherMap API.
 
 ## Installation
@@ -46,17 +46,17 @@ The project is structured as follows:
     Manages the Core Data stack for storing weather data.
 2. CityDataManager.swift: 
     Loads city data from a JSON file for use in the app.
-3.Data Models: 
+3. Data Models: 
     Contains the data models used in the app.
-4.Views: 
+4. Views: 
     Contains the user interface components, including ContentView.
-5.WeatherViewModel: 
+5. WeatherViewModel: 
     Implements the ViewModel for the app.
-6.Utilities: 
+6. Utilities: 
     Contains utility classes such as APIClient, AppConstants, and URLConstants.
 7. Tests: 
     Includes unit tests for the project.
-8.Mockdata:
+8. Mockdata:
     Includes mockdata for tests.
 
 ## How to Use
